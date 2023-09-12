@@ -31,7 +31,8 @@
   </TextExpression.ReferencesForImplementation>
   <Sequence sap2010:WorkflowViewState.IdRef="Sequence_1">
     <WriteLine sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="Hello" />
-    <sads:DebugSymbol.Symbol>dz9DOlxVc2Vyc1x5YW1pblxEb2N1bWVudHNcQXV0b21hdFJcQXV0b21hdFxBdXRvbWF0ZVxTdGFydHVwLnhhbWwDIAMjDgIBASEFIU0CAQIhQyFKAgED</sads:DebugSymbol.Symbol>
+    <WriteLine Text="Test" sap2010:WorkflowViewState.IdRef="WriteLine_2" />
+    <sads:DebugSymbol.Symbol>d0JDOlxVc2Vyc1x5YW1pblxEb2N1bWVudHNcQXV0b21hdFJcSGl0ZXNoVGVzdFxBdXRvbWF0ZVxTdGFydHVwLnhhbWwFIAMkDgIBASEFIU0CAQQiBSJMAgECIUMhSgIBBSIVIhsCAQM=</sads:DebugSymbol.Symbol>
   </Sequence>
   <sap2010:WorkflowViewState.ViewStateManager>
     <sap2010:ViewStateManager>
@@ -42,7 +43,14 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
-      <sap2010:ViewStateData Id="Sequence_1" sap:VirtualizedContainerService.HintSize="232,185">
+      <sap2010:ViewStateData Id="WriteLine_2" sap:VirtualizedContainerService.HintSize="210,61">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:String x:Key="CustomActivityId">f54cee68-71f9-43c6-a0bd-71da8e34d54e</x:String>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Sequence_1" sap:VirtualizedContainerService.HintSize="232,286">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -50,7 +58,7 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
-      <sap2010:ViewStateData Id="Startup_1" sap:VirtualizedContainerService.HintSize="272,265" />
+      <sap2010:ViewStateData Id="Startup_1" sap:VirtualizedContainerService.HintSize="272,366" />
     </sap2010:ViewStateManager>
   </sap2010:WorkflowViewState.ViewStateManager>
 </Activity>
