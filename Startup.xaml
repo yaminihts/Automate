@@ -31,26 +31,34 @@
   </TextExpression.ReferencesForImplementation>
   <Sequence sap2010:WorkflowViewState.IdRef="Sequence_1">
     <WriteLine sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="Hello" />
-    <WriteLine Text="Test" sap2010:WorkflowViewState.IdRef="WriteLine_2" />
-    <sads:DebugSymbol.Symbol>d0JDOlxVc2Vyc1x5YW1pblxEb2N1bWVudHNcQXV0b21hdFJcSGl0ZXNoVGVzdFxBdXRvbWF0ZVxTdGFydHVwLnhhbWwFIAMkDgIBASEFIU0CAQQiBSJMAgECIUMhSgIBBSIVIhsCAQM=</sads:DebugSymbol.Symbol>
+    <WriteLine sap2010:WorkflowViewState.IdRef="WriteLine_2" Text="Test" />
+    <WriteLine Text="Test Type" sap2010:WorkflowViewState.IdRef="WriteLine_3" />
+    <sads:DebugSymbol.Symbol>d2FDOlxVc2Vyc1xIUFxPbmVEcml2ZSAtIEh5cGVyIFRocmVhZCBTb2x1dGlvbnNcRG9jdW1lbnRzXEF1dG9tYXRSXEZyb21ZYW1pbmlcQXV0b21hdGVcU3RhcnR1cC54YW1sByADJQ4CAQEhBSFNAgEGIgUiTAIBBCMFI1ECAQIhQyFKAgEHIkMiSQIBBSMVIyACAQM=</sads:DebugSymbol.Symbol>
   </Sequence>
   <sap2010:WorkflowViewState.ViewStateManager>
     <sap2010:ViewStateManager>
-      <sap2010:ViewStateData Id="WriteLine_1" sap:VirtualizedContainerService.HintSize="210,61">
+      <sap2010:ViewStateData Id="WriteLine_1" sap:VirtualizedContainerService.HintSize="209.333333333333,62.6666666666667">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:String x:Key="CustomActivityId">8a555a90-8593-4edc-894b-0874d1da276c</x:String>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
-      <sap2010:ViewStateData Id="WriteLine_2" sap:VirtualizedContainerService.HintSize="210,61">
+      <sap2010:ViewStateData Id="WriteLine_2" sap:VirtualizedContainerService.HintSize="209.333333333333,62.6666666666667">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:String x:Key="CustomActivityId">f54cee68-71f9-43c6-a0bd-71da8e34d54e</x:String>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
-      <sap2010:ViewStateData Id="Sequence_1" sap:VirtualizedContainerService.HintSize="232,286">
+      <sap2010:ViewStateData Id="WriteLine_3" sap:VirtualizedContainerService.HintSize="209.333333333333,62.6666666666667">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:String x:Key="CustomActivityId">d440b08b-a45d-43c7-bc12-6497c555f7ef</x:String>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Sequence_1" sap:VirtualizedContainerService.HintSize="231.333333333333,392">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -58,7 +66,7 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
-      <sap2010:ViewStateData Id="Startup_1" sap:VirtualizedContainerService.HintSize="272,366" />
+      <sap2010:ViewStateData Id="Startup_1" sap:VirtualizedContainerService.HintSize="271.333333333333,512" />
     </sap2010:ViewStateManager>
   </sap2010:WorkflowViewState.ViewStateManager>
 </Activity>
