@@ -30,8 +30,8 @@
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
   <Sequence sap2010:WorkflowViewState.IdRef="Sequence_1">
-    <WriteLine Text="Hello" sap2010:WorkflowViewState.IdRef="WriteLine_1" />
-    <sads:DebugSymbol.Symbol>dzNDOlxVc2Vyc1x5YW1pblxEb2N1bWVudHNcQXV0b21hdFJcVEVURVxTdGFydHVwLnhhbWwDIAMjDgIBASEFIU0CAQIhFSEcAgED</sads:DebugSymbol.Symbol>
+    <WriteLine sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="Hello" />
+    <sads:DebugSymbol.Symbol>dz9DOlxVc2Vyc1x5YW1pblxEb2N1bWVudHNcQXV0b21hdFJcQXV0b21hdFxBdXRvbWF0ZVxTdGFydHVwLnhhbWwDIAMjDgIBASEFIU0CAQIhQyFKAgED</sads:DebugSymbol.Symbol>
   </Sequence>
   <sap2010:WorkflowViewState.ViewStateManager>
     <sap2010:ViewStateManager>
@@ -50,7 +50,7 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
-      <sap2010:ViewStateData Id="Startup_1" sap:VirtualizedContainerService.HintSize="272,305" />
+      <sap2010:ViewStateData Id="Startup_1" sap:VirtualizedContainerService.HintSize="272,265" />
     </sap2010:ViewStateManager>
   </sap2010:WorkflowViewState.ViewStateManager>
 </Activity>
